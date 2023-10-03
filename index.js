@@ -13,17 +13,12 @@ if (isNaN(Value) || Value < 1 || Value > 100) {
     return;
 }
 
-if(Value.atempt > 10){
-    Output.textContent = "You have exceed atempt"
-}else{
-    if(Random === Value){
- Output.textContent  = "Congralation You Guss the number🎇🎉🎉" + Random
+
+    if(Value ===18){
+ Output.textContent  = "Congralation You Guss the number🎇🎉🎉" 
     }else{
         Output.textContent = "Random number was  " + Random + "😥"
     }
-}
-Input.value = ''
-}
 
 
 
